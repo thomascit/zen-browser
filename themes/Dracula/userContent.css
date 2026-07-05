@@ -77,8 +77,9 @@
     }
   }
 
-  /* Variables and styles specific to about:preferences */
-  @-moz-document url-prefix("about:preferences") {
+  /* Variables and styles specific to about:preferences
+     (Zen opens this page as about:settings) */
+  @-moz-document url-prefix("about:preferences"), url-prefix("about:settings") {
     :root {
       --zen-colors-tertiary: #282A36 !important;
       --in-content-text-color: #F8F8F2 !important;
