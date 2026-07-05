@@ -11,6 +11,39 @@
       --color-accent-primary-active: #A580D9 !important;
       background-color: #282A36 !important;
       --in-content-page-background: #282A36 !important;
+      --in-content-text-color: #F8F8F2 !important;
+      --in-content-deemphasized-text: #6272A4 !important;
+      --in-content-box-background: #44475A !important;
+      --in-content-box-background-hover: #6272A4 !important;
+      --in-content-box-border-color: #6272A4 !important;
+      --in-content-border-color: #6272A4 !important;
+      --in-content-button-background: #44475A !important;
+      --in-content-button-background-hover: #6272A4 !important;
+      --in-content-button-background-active: #6272A4 !important;
+      --in-content-button-text-color: #F8F8F2 !important;
+      --in-content-primary-button-background: #BD93F9 !important;
+      --in-content-primary-button-background-hover: #CAA9FA !important;
+      --in-content-primary-button-background-active: #A580D9 !important;
+      --in-content-primary-button-text-color: #282A36 !important;
+      --in-content-table-background: #44475A !important;
+      --in-content-table-border-color: #6272A4 !important;
+      --in-content-item-hover: rgba(98, 114, 164, 0.4) !important;
+      --in-content-item-hover-text: #F8F8F2 !important;
+      --in-content-item-selected: #BD93F9 !important;
+      --in-content-item-selected-text: #282A36 !important;
+      --in-content-accent-color: #BD93F9 !important;
+      --checkbox-unchecked-bgcolor: #44475A !important;
+      --checkbox-unchecked-hover-bgcolor: #6272A4 !important;
+      --checkbox-unchecked-border-color: #6272A4 !important;
+      --checkbox-checked-bgcolor: #BD93F9 !important;
+      --checkbox-checked-color: #282A36 !important;
+      --link-color: #BD93F9 !important;
+      --link-color-hover: #CAA9FA !important;
+      --background-color-box: #44475A !important;
+      --button-background-color: #44475A !important;
+      --button-background-color-hover: #6272A4 !important;
+      --button-text-color: #F8F8F2 !important;
+      --border-color: #6272A4 !important;
     }
 
   }
