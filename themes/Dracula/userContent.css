@@ -9,8 +9,8 @@
       --color-accent-primary: #BD93F9 !important;
       --color-accent-primary-hover: #CAA9FA !important;
       --color-accent-primary-active: #A580D9 !important;
-      background-color: #44475A !important;
-      --in-content-page-background: #44475A !important;
+      background-color: #282A36 !important;
+      --in-content-page-background: #282A36 !important;
     }
 
   }
@@ -19,9 +19,9 @@
   @-moz-document url("about:newtab"), url("about:home") {
 
     :root {
-      --newtab-background-color: #44475A !important;
-      --newtab-background-color-secondary: #6272A4 !important;
-      --newtab-element-hover-color: #6272A4 !important;
+      --newtab-background-color: #282A36 !important;
+      --newtab-background-color-secondary: #44475A !important;
+      --newtab-element-hover-color: #44475A !important;
       --newtab-text-primary-color: #F8F8F2 !important;
       --newtab-wordmark-color: #F8F8F2 !important;
       --newtab-primary-action-background: #BD93F9 !important;
@@ -51,8 +51,8 @@
       --in-content-text-color: #F8F8F2 !important;
       --link-color: #BD93F9 !important;
       --link-color-hover: #CAA9FA !important;
-      --zen-colors-primary: #6272A4 !important;
-      --in-content-box-background: #6272A4 !important;
+      --zen-colors-primary: #44475A !important;
+      --in-content-box-background: #44475A !important;
       --zen-primary-color: #BD93F9 !important;
     }
 
@@ -62,7 +62,7 @@
 
     button,
     groupbox menulist {
-      background: #6272A4 !important;
+      background: #44475A !important;
       color: #F8F8F2 !important;
     }
 
@@ -136,7 +136,7 @@
 
 
     .card {
-      background-color: #6272A4 !important;
+      background-color: #44475A !important;
     }
   }
 }
