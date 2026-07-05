@@ -112,6 +112,18 @@
       --icon-color: #6272A4 !important;
     }
 
+    /* Toggle switches (e.g. Zen Mods on/off) are moz-toggle shadow DOM
+       widgets; Zen points the pressed-hover state at --zen-colors-hover-bg,
+       which is undefined on this page, so pin every pressed token */
+    moz-toggle {
+      --toggle-background-color-pressed: #BD93F9 !important;
+      --toggle-background-color-pressed-hover: #CAA9FA !important;
+      --toggle-background-color-pressed-active: #A580D9 !important;
+      --toggle-dot-background-color-on-pressed: #282A36 !important;
+      --toggle-background-color: #44475A !important;
+      --toggle-border-color: #6272A4 !important;
+    }
+
     button,
     groupbox menulist {
       background: #44475A !important;
