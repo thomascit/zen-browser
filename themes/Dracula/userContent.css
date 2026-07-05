@@ -95,6 +95,14 @@
       background: #44475A !important;
     }
 
+    /* Zen's custom panes (Look and Feel, Tab Management, Keyboard
+       Shortcuts, Zen Mods) use legacy groupbox markup instead of the
+       setting-group cards, so give them the same card styling */
+    groupbox {
+      border-radius: var(--card-border-radius, 8px) !important;
+      padding: var(--card-padding, 16px) !important;
+    }
+
     /* The settings search box is a moz-input-search custom element; the
        real input lives in a shadow root and only reacts to these tokens */
     #searchInput {
