@@ -93,6 +93,20 @@
       background: #44475A !important;
     }
 
+    #searchInput,
+    search-textbox,
+    input[type="search"] {
+      background-color: #44475A !important;
+      color: #F8F8F2 !important;
+      border: 1px solid #6272A4 !important;
+    }
+
+    #searchInput::placeholder,
+    search-textbox::placeholder {
+      color: #6272A4 !important;
+      opacity: 1 !important;
+    }
+
     button,
     groupbox menulist {
       background: #44475A !important;
