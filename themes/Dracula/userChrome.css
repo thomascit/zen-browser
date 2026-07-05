@@ -36,6 +36,16 @@
     background: #282A36 !important;
   }
 
+  /* Zen paints the window backdrop through this overlay's pseudo-elements
+     with opacity and a screen blend-mode, which shifts the color away
+     from the flat #282A36 used everywhere else — force it flat */
+  .zen-browser-generic-background::before,
+  .zen-browser-generic-background::after {
+    background: #282A36 !important;
+    opacity: 1 !important;
+    background-blend-mode: normal !important;
+  }
+
   /* Drag handle between the sidebar and the browser window; keep it
      invisible until hovered */
   #zen-sidebar-splitter {
