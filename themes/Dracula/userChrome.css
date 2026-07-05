@@ -6,7 +6,7 @@
     --zen-primary-color: #BD93F9 !important;
     --zen-colors-secondary: #44475A !important;
     --zen-colors-tertiary: #282A36 !important;
-    --zen-colors-border: #44475A !important;
+    --zen-colors-border: #282A36 !important;
     --toolbarbutton-icon-fill: #BD93F9 !important;
     --lwt-text-color: #F8F8F2 !important;
     --toolbar-field-color: #F8F8F2 !important;
@@ -36,10 +36,10 @@
     background: #282A36 !important;
   }
 
-  /* Drag handle between the sidebar and the browser window; Zen paints
-     it with --zen-colors-border, which reads too loud as a full line */
+  /* Drag handle between the sidebar and the browser window; keep it
+     invisible until hovered */
   #zen-sidebar-splitter {
-    background: #44475A !important;
+    background: #282A36 !important;
   }
 
   #zen-sidebar-splitter:hover {
