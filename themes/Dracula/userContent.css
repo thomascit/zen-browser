@@ -40,6 +40,7 @@
       --link-color: #BD93F9 !important;
       --link-color-hover: #CAA9FA !important;
       --background-color-box: #44475A !important;
+      --background-color-canvas: #282A36 !important;
       --button-background-color: #44475A !important;
       --button-background-color-hover: #6272A4 !important;
       --button-text-color: #F8F8F2 !important;
@@ -110,6 +111,11 @@
     }
 
     .main-content {
+      background-color: #21222C !important;
+    }
+
+    /* Sticky bar behind the search field; must match .main-content */
+    #search-container {
       background-color: #21222C !important;
     }
 
