@@ -124,6 +124,26 @@
       --toggle-border-color: #6272A4 !important;
     }
 
+    /* ::part() pierces the shadow DOM directly in case the token
+       overrides above lose to the widget's internal styles */
+    moz-toggle::part(button) {
+      background-color: #44475A !important;
+      border-color: #6272A4 !important;
+    }
+
+    moz-toggle[pressed]::part(button) {
+      background-color: #BD93F9 !important;
+      border-color: transparent !important;
+    }
+
+    moz-toggle[pressed]::part(button):hover {
+      background-color: #CAA9FA !important;
+    }
+
+    moz-toggle[pressed]::part(button)::before {
+      background-color: #282A36 !important;
+    }
+
     button,
     groupbox menulist {
       background: #44475A !important;
